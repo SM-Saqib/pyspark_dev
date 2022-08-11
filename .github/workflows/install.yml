@@ -4,5 +4,4 @@ jobs:
   installation:
     runs-on: ubuntu-latest
     steps:
-      -name: install pyspark related things
-      -run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt
