@@ -2,7 +2,7 @@ name: installation
 on: [push]
 jobs:
   installation:
-    runs_on: ubuntu-latest
-     steps: 
+    runs-on: ubuntu-latest
+    steps:
       -name: install pyspark related things
       -run: pip install -r requirements.txt
